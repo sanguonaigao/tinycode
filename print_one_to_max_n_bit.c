@@ -1,5 +1,5 @@
 
-//非递归实现
+// 闈為�掑綊瀹炵幇
 
 #include<stdio.h>
 #include <stdbool.h>
@@ -83,7 +83,7 @@ int main()
 }
 
 
-//递归实现
+//閫掑綊瀹炵幇
 
 #include <stdio.h>
 #include <stdlib.h>
