@@ -40,7 +40,7 @@ void SortList(pSeqList plist);
 void InitSeqlist(pSeqList plist)
 {
 	assert(plist);
-	//初始化内存块
+	//鍒濆鍖栧唴瀛樺潡
 	memset(plist->data, 0, MAX*sizeof(DataType));
 	plist->size = 0;
 }
@@ -143,7 +143,7 @@ void Remove(pSeqList plist, DataType x)
 	{
 		return;
 	}
-	//查找
+	//鏌ユ壘
 	for (find = 0; find < plist->size; find++)
 	{
 		if (plist->data[find] == x)
@@ -152,7 +152,7 @@ void Remove(pSeqList plist, DataType x)
 			break;
 		}
 	}
-	//删除
+	//鍒犻櫎
 	for (; del < plist->size-1; del++)
 	{
 		plist->data[del] = plist->data[del+1];
@@ -180,7 +180,7 @@ int Find(pSeqList plist, DataType x)
 	{
 		return -1;
 	}
-	//查找
+	//鏌ユ壘
 	for (find = 0; find < plist->size; find++)
 	{
 		if (plist->data[find] == x)
