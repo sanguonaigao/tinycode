@@ -47,7 +47,7 @@ void DoCState(FILE *pfIn, FILE *pfOut)
 		second = fgetc(pfIn);
 		if (second == '/')
 		{
-			//∂™»•*°¢/
+			//‰∏¢Âéª*„ÄÅ/
 			char next = fgetc(pfIn);
 			if (next == '\n')
 			{
